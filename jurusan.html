@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./src/css/style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <!-- navbar start -->
+      <nav class="bg-color-5 p-4 sticky top-0 z-50">
+         <div
+            class="container mx-auto flex justify-between items-center relative"
+         >
+            <a href="#" class="text-white text-2xl font-bold"
+               ><img src="./src/img/logo.png" class="h-10" alt="logo"
+            /></a>
+
+            <div class="lg:hidden">
+               <button id="menu-toggle" class="text-white text-xl">
+                  <svg
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     stroke-width="2"
+                     viewBox="0 0 24 24"
+                     class="w-6 h-6"
+                  >
+                     <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+               </button>
+            </div>
+
+            <!-- Daftar menu -->
+            <div
+               id="mobile-menu"
+               class="hidden lg:flex font-medium flex-col gap-5 text-xl p-4 mt-4 lg:mt-0 w-full lg:w-fit top-10 border lg:border-none text-color-3 absolute lg:static border-gray-100 rounded-lg bg-color-1 lg:bg-transparent lg:flex-row"
+            >
+               <a
+                  href="index.html#tentang"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >tentang kami</a
+               >
+               <a
+                  href="index.html#prasarana"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >prasarana</a
+               >
+               <a
+                  href="jurusan.html"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >jurusan</a
+               >
+               <a
+                  href="index.html#ekskul"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >ekskul</a
+               >
+               <a
+                  href="index.html#lokasi"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >lokasi</a
+               >
+            </div>
+         </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- jurusan start -->
+      <section id="jurusan" class="bg-color-6 py-5">
+         <main class="flex flex-col gap-10 mx-auto w-11/12 lg:w-10/12">
+            <h1
+               class="capitalize text-center text-4xl md:text-6xl text-color-1 font-semibold"
+            >
+               jurusan kami
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+               <img
+                  class="object-contain mix-blend-multiply col-span-1"
+                  src="./src/img/logo/rpl.jpg"
+                  alt="rpl"
+               />
+               <div class="col-span-2 text-color-1 flex flex-col gap-5">
+                  <h2 class="capitalize font-medium text-4xl">
+                     Rekayasa perangkat lunak
+                  </h2>
+                  <div class="text-base md:text-xl">
+                     Jurusan RPL, atau Rekayasa Perangkat Lunak, adalah salah
+                     satu bidang studi di dunia teknologi informasi yang fokus
+                     pada pengembangan perangkat lunak komputer. Jurusan ini
+                     mengajarkan siswa tentang berbagai aspek pengembangan
+                     perangkat lunak, termasuk perancangan, pengkodean,
+                     pengujian, dan pemeliharaan aplikasi perangkat lunak.
+                     Selain itu, jurusan RPL juga memperkenalkan siswa pada
+                     konsep-konsep fundamental seperti algoritma, struktur data,
+                     basis data, keamanan perangkat lunak, dan manajemen proyek
+                     perangkat lunak. Para mahasiswa jurusan RPL akan belajar
+                     menggunakan berbagai bahasa pemrograman dan teknologi
+                     terkini untuk menciptakan solusi perangkat lunak yang
+                     efisien dan inovatif.
+                  </div>
+               </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+               <div
+                  class="col-span-2 text-color-1 order-2 md:order-1 flex md:text-right flex-col gap-5"
+               >
+                  <h2 class="capitalize font-medium text-4xl">
+                     desain komunikasi visual
+                  </h2>
+                  <div class="text-base md:text-xl">
+                     Jurusan DKV mengajarkan siswa tentang konsep desain,
+                     estetika, dan komunikasi visual. Siswa belajar bagaimana
+                     menggabungkan elemen-elemen seperti gambar, teks, warna,
+                     dan tata letak untuk menyampaikan pesan dengan cara yang
+                     jelas dan menarik. Selama program studi, siswa DKV akan
+                     belajar tentang berbagai media desain, termasuk desain
+                     grafis, ilustrasi, fotografi, desain web, dan multimedia.
+                     Mereka juga akan mendalami software dan alat-alat desain
+                     yang umum digunakan dalam industri, seperti Adobe Creative
+                     Suite.
+                  </div>
+               </div>
+               <img
+                  class="object-contain order-1 md:order-2 mix-blend-multiply col-span-1"
+                  src="./src/img/logo/dkv.jpg"
+                  alt="dkv"
+               />
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+               <img
+                  class="object-contain mix-blend-multiply col-span-1"
+                  src="./src/img/logo/animasi.jpg"
+                  alt="animasi"
+               />
+               <div class="col-span-2 text-color-1 flex flex-col gap-5">
+                  <h2 class="capitalize font-medium text-4xl">animasi</h2>
+                  <div class="text-base md:text-xl">
+                     Jurusan Animasi adalah program pendidikan tinggi yang
+                     bertujuan untuk mengembangkan keterampilan dan pengetahuan
+                     siswa dalam menciptakan animasi visual. Dalam program ini,
+                     siswa akan memahami prinsip-prinsip dasar animasi, termasuk
+                     bagaimana mengatur timing, gerakan, eksposur, dan pose
+                     karakter agar animasi tampak alami dan menarik. Mereka juga
+                     akan mendalami berbagai teknik animasi, seperti animasi 2D
+                     tradisional, animasi komputer 2D, dan animasi 3D. Selain
+                     itu, siswa akan mempelajari perangkat lunak dan teknologi
+                     terkini yang digunakan dalam industri animasi.
+                  </div>
+               </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+               <img
+                  class="object-contain mix-blend-multiply order-1 md:order-2 col-span-1"
+                  src="./src/img/logo/bcf.png"
+                  alt="bcf"
+               />
+               <div
+                  class="col-span-2 md:text-right order-2 md:order-1 text-color-1 flex flex-col gap-5"
+               >
+                  <h2 class="capitalize font-medium text-4xl">
+                     broadcasting dan perfilman
+                  </h2>
+                  <div class="text-base md:text-xl">
+                     Jurusan Broadcasting dan Perfilman (BCF) adalah program
+                     studi yang berfokus pada bidang produksi media audio
+                     visual. Dalam program ini, siswa akan mempelajari berbagai
+                     aspek produksi film, program televisi, dan media terkait.
+                     Mereka akan belajar teknik-teknik produksi seperti
+                     pengambilan gambar, penyuntingan video, dan pengembangan
+                     naskah. Salah satu aspek yang penting dalam jurusan BCF
+                     adalah pengembangan keterampilan kreatif. Siswa akan
+                     diajarkan cara mengembangkan cerita yang menarik,
+                     menciptakan karakter yang kuat, dan menggunakan elemen
+                     sinematografi dan desain suara untuk menciptakan pengalaman
+                     audio visual yang memikat.
+                  </div>
+               </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+               <img
+                  class="object-contain mix-blend-multiply col-span-1"
+                  src="./src/img/logo/peksos.jpg"
+                  alt="peksos"
+               />
+               <div class="col-span-2 text-color-1 flex flex-col gap-5">
+                  <h2 class="capitalize font-medium text-4xl">
+                     pekerja sosial
+                  </h2>
+                  <div class="text-base md:text-xl">
+                     Jurusan Pekerja Sosial (Peksos) adalah program studi yang
+                     berfokus pada pengetahuan dan keterampilan yang diperlukan
+                     untuk bekerja dalam bidang pekerjaan sosial. Dalam program
+                     ini, siswa akan memahami berbagai aspek pekerjaan sosial,
+                     termasuk konseling, intervensi sosial, pemecahan masalah,
+                     dan dukungan kepada individu atau kelompok yang membutuhkan
+                     bantuan. Mereka juga akan belajar tentang isu-isu sosial
+                     yang memengaruhi masyarakat dan cara mengembangkan strategi
+                     untuk membantu individu atau komunitas yang menghadapinya.
+                  </div>
+               </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+               <img
+                  class="object-contain mix-blend-multiply md:order-2 order-1 col-span-1"
+                  src="./src/img/logo/tkj.jpg"
+                  alt="tkj"
+               />
+               <div
+                  class="col-span-2 text-color-1 md:order-1 order-2 md:text-right flex flex-col gap-5"
+               >
+                  <h2 class="capitalize font-medium text-4xl">
+                     teknik komputer jaringan
+                  </h2>
+                  <div class="text-base md:text-xl">
+                     Jurusan TKJ, atau Teknik Komputer dan Jaringan, adalah
+                     program pendidikan tinggi yang berfokus pada teknologi
+                     informasi dan jaringan komputer. Dalam program ini, siswa
+                     akan belajar tentang berbagai aspek teknologi komputer,
+                     termasuk pemrograman, manajemen jaringan, keamanan
+                     komputer, dan dukungan teknis. Siswa TKJ akan memahami
+                     dasar-dasar pemrograman, mengembangkan aplikasi perangkat
+                     lunak, dan bekerja dengan berbagai bahasa pemrograman dan
+                     teknologi terkini. Mereka juga akan mendalami manajemen
+                     jaringan, termasuk konfigurasi, pemeliharaan, dan
+                     penyelesaian masalah jaringan komputer.
+                  </div>
+               </div>
+            </div>
+         </main>
+      </section>
+      <!-- jurusan end -->
+
+      <!-- js -->
+      <script src="./src/js/main.js"></script>
+   </body>
+</html>

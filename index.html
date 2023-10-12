@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet"
+      />
+
+      <!-- css file -->
+      <link rel="stylesheet" href="./src/css/style.css" />
+
+      <!-- favicon -->
+      <link
+         rel="shortcut icon"
+         href="./src/img/smkn9.jpeg"
+         type="image/x-icon"
+      />
+      <title>SMKN 9 Medan</title>
+   </head>
+   <body>
+      <!-- navbar start -->
+      <nav class="bg-color-5 p-4 sticky top-0 z-50">
+         <div
+            class="container mx-auto flex justify-between items-center relative"
+         >
+            <a href="#" class="text-white text-2xl font-bold"
+               ><img src="./src/img/logo.png" class="h-10" alt="logo"
+            /></a>
+
+            <div class="lg:hidden">
+               <button id="menu-toggle" class="text-white text-xl">
+                  <svg
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     stroke-width="2"
+                     viewBox="0 0 24 24"
+                     class="w-6 h-6"
+                  >
+                     <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+               </button>
+            </div>
+
+            <!-- Daftar menu -->
+            <div
+               id="mobile-menu"
+               class="hidden lg:flex font-medium flex-col gap-5 text-xl p-4 mt-4 lg:mt-0 w-full lg:w-fit top-10 border lg:border-none text-color-3 absolute lg:static border-gray-100 rounded-lg bg-color-1 lg:bg-transparent lg:flex-row"
+            >
+               <a
+                  href="#tentang"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >tentang kami</a
+               >
+               <a
+                  href="#prasarana"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >prasarana</a
+               >
+               <a
+                  href="jurusan.html"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >jurusan</a
+               >
+               <a
+                  href="#ekskul"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >ekskul</a
+               >
+               <a
+                  href="#lokasi"
+                  class="text-white hover:text-color-1 transition-all font-medium"
+                  >lokasi</a
+               >
+            </div>
+         </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- hero image start -->
+      <!-- Hero Image -->
+      <div
+         class="bg-cover bg-fixed bg-center h-screen relative"
+         style="background-image: url('./src/img/smk1-min.jpg')"
+      >
+         <div
+            class="container mx-auto h-screen bg-black bg-opacity-40 flex flex-col justify-center items-center relative z-10"
+         >
+            <h1
+               class="text-4xl sm:text-6xl text-white font-bold text-center mb-6"
+            >
+               Selamat Datang di Website sekolah
+            </h1>
+            <p class="text-lg sm:text-2xl text-white text-center mb-12">
+               SMK NEGERI 9 MEDAN
+            </p>
+            <a
+               href="#lokasi"
+               class="bg-color-5 hover:bg-color-2 text-white py-2 capitalize px-4 rounded-full text-lg sm:text-xl transition duration-300 ease-in-out"
+               >lihat lokasi</a
+            >
+         </div>
+      </div>
+      <!-- hero image end -->
+
+      <!-- about start -->
+      <section id="tentang" class="bg-color-6 py-5 text-color-1">
+         <main class="flex flex-col gap-5 mx-auto w-11/12 lg:w-10/12">
+            <h1
+               class="capitalize text-center text-4xl md:text-6xl text-color-1 font-semibold"
+            >
+               tentang kami
+            </h1>
+            <div
+               class="flex flex-col md:flex-row gap-10 md:gap-20 justify-evenly md:text-justify"
+            >
+               <div class="rounded-md border-2 flex flex-col shadow gap-2">
+                  <h2
+                     class="text-center bg-color-5 text-color-3 text-4xl py-1 uppercase font-bold tracking-wider rounded-md"
+                  >
+                     visi
+                  </h2>
+                  <div class="w-96 md:w-auto lg:w-96 h-auto p-3 md:text-lg">
+                     Membentuk pembelajar yang akhlakul karimah, berilmu,
+                     beretika, berwawasan lingkungan untuk menuju pentas dunia.
+                  </div>
+               </div>
+               <div class="rounded-md border-2 flex flex-col shadow gap-2">
+                  <h2
+                     class="text-center bg-color-5 text-color-3 text-4xl py-1 uppercase font-bold tracking-wider rounded-md"
+                  >
+                     misi
+                  </h2>
+                  <div class="w-96 md:w-auto lg:w-96 h-auto p-3 md:text-lg">
+                     <ul class="flex flex-col gap-3">
+                        <li>Mewujudkan pendidikan dengan keteladanan</li>
+                        <li>
+                           Meningkatkan fasilitas sekolah menuju sekolah bersih,
+                           sehat dan berwawasan lingkungan
+                        </li>
+                        <li>
+                           Mengembangkan budaya belajar dengan didasari pada
+                           kecintaan terhadap ilmu pengetahuan
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </section>
+      <!-- about end -->
+
+      <!-- prasarana start -->
+      <section id="prasarana" class="bg-color-6 py-5">
+         <main class="flex flex-col gap-5 mx-auto w-11/12 lg:w-10/12">
+            <h1
+               class="capitalize text-center text-4xl md:text-6xl text-color-1 font-semibold"
+            >
+               prasarana kami
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/lapangan futsal-min.jpg"
+                     alt="lapangan futsal"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     lapangan futsal
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/aula-min.jpg"
+                     alt="aula"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     hall aula
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/mushola-min.jpg"
+                     alt="mushola"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     mushola
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/perpustakaan-min.jpg"
+                     alt="perpustakaan"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     perpustakaan
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/lab komputer-min.jpg"
+                     alt="lab komputer"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     lab komputer
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/lab bcf-min.jpg"
+                     alt="lab bcf"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     lab bcf
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/lab dkv-min.jpg"
+                     alt="lab dkv"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     lab dkv
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-end gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-[4/3] block group-hover:scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/lab peksos-min.jpg"
+                     alt="lab peksos"
+                  />
+                  <div
+                     class="capitalize text-white transition-all duration-500 -bottom-10 opacity-0 group-hover:bottom-0 group-hover:opacity-100 font-medium tracking-wider text-2xl p-3 w-full absolute z-20 bg-gradient-to-t from-color-1 to-transparent"
+                  >
+                     lab peksos
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col justify-center items-center gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <h3 class="text-2xl font-semibold capitalize tracking-wide">
+                     comming soon
+                  </h3>
+               </div>
+            </div>
+         </main>
+      </section>
+      <!-- prasarana end -->
+
+      <!-- ekskul start -->
+      <section id="ekskul" class="bg-color-6 py-5">
+         <main class="flex flex-col gap-5 mx-auto w-11/12 lg:w-10/12">
+            <h1
+               class="capitalize text-center text-4xl md:text-6xl text-color-1 font-semibold"
+            >
+               ekstra kulikuler
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-square block scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/ekskul/futsal.jpg"
+                     alt="futsal"
+                  />
+                  <div class="p-3">
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">
+                           pembimbing
+                        </h2>
+                        <p class="text-lg font-medium capitalize">pak ersan</p>
+                     </div>
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">hari</h2>
+                        <p class="text-lg font-medium capitalize">kamis</p>
+                     </div>
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-square block scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/ekskul/osis.jpg"
+                     alt="osis"
+                  />
+                  <div class="p-3">
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">
+                           pembimbing
+                        </h2>
+                        <p class="text-lg font-medium capitalize">pak arif</p>
+                     </div>
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">hari</h2>
+                        <p class="text-lg font-medium capitalize">sabtu</p>
+                     </div>
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-square block scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/ekskul/paskibra.jpg"
+                     alt="paskibra"
+                  />
+                  <div class="p-3">
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">
+                           pembimbing
+                        </h2>
+                        <p class="text-lg font-medium capitalize">pak dedek</p>
+                     </div>
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">hari</h2>
+                        <p class="text-lg font-medium capitalize">
+                           rabu & sabtu
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div
+                  class="col-span-1 group shadow-md shadow-gray-400 relative flex flex-col gap-3 rounded-lg overflow-hidden ring-1 ring-color-1"
+               >
+                  <img
+                     class="aspect-square block scale-110 transition-all duration-500 group-hover:brightness-90"
+                     src="./src/img/ekskul/pmr.jpg"
+                     alt="paskibra"
+                  />
+                  <div class="p-3">
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">
+                           pembimbing
+                        </h2>
+                        <p class="text-lg font-medium capitalize">
+                           kakak kelas 12
+                        </p>
+                     </div>
+                     <div>
+                        <h2 class="opacity-60 text-sm capitalize">hari</h2>
+                        <p class="text-lg font-medium capitalize">senin</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </section>
+      <!-- ekskul start -->
+
+      <!-- lokasi start -->
+      <section id="lokasi" class="bg-color-6 py-5">
+         <main class="flex flex-col gap-5 mx-auto w-11/12 lg:w-10/12">
+            <h1
+               class="capitalize text-center text-4xl md:text-6xl text-color-1 font-semibold"
+            >
+               lokasi kami
+            </h1>
+            <div
+               class="w-full ring-1 ring-gray-300 rounded-xl overflow-hidden shadow-md"
+            >
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.9903858617363!2d98.61830227477664!3d3.589679650287135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312e4f46b5ab19%3A0x447dc6ab3d465c1e!2sSekolah%20Menengah%20Kejuruan%20Negeri%209%20Medan!5e0!3m2!1sid!2sid!4v1696507099217!5m2!1sid!2sid"
+                  class="w-full aspect-[4/6] md:aspect-square lg:aspect-[8/3]"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+               ></iframe>
+            </div>
+         </main>
+      </section>
+      <!-- lokasi end -->
+
+      <!-- footer start -->
+      <section class="bg-color-5 py-5 w-full">
+         <footer class="flex text-color-3 flex-col mx-auto w-11/12 lg:w-10/12">
+            <div
+               class="flex lg:flex-row flex-col gap-5 md:gap-10 lg:justify-between"
+            >
+               <div
+                  class="rounded-full overflow-hidden aspect-square w-1/2 lg:w-auto lg:h-28"
+               >
+                  <img
+                     class="object-cover object-top"
+                     src="./src/img/fahri.jpg"
+                     alt="profile fahri"
+                  />
+               </div>
+               <div class="flex-col lg:w-4/12 font-light flex gap-3">
+                  <img
+                     class="w-8/12 lg:w-full"
+                     src="./src/img/logo.png"
+                     alt="logo sekolah"
+                  />
+                  <p class="text-sm">
+                     SMK Negeri 9 Medan, Jl. Patriot No. 20 A Lalang Kec. Medan
+                     Sunggal Kota Medan, Sumatera Utara
+                  </p>
+               </div>
+               <div class="flex flex-col gap-3 lg:gap-5">
+                  <div class="font-semibold text-2xl md:text-4xl lg:text-2xl">
+                     Our Media Sosial
+                  </div>
+                  <div class="flex gap-5 lg:justify-center justify-start">
+                     <a
+                        class="aspect-square p-2 rounded-full hover:bg-color-4 transition-all bg-color-3"
+                        href=""
+                        target="_blank"
+                        ><img src="./src/img/logo/facebook.svg" alt="facebook"
+                     /></a>
+                     <a
+                        class="aspect-square p-2 rounded-full hover:bg-color-4 transition-all bg-color-3"
+                        href=""
+                        target="_blank"
+                        ><img
+                           src="./src/img/logo/instagram.svg"
+                           alt="instagram"
+                     /></a>
+                     <a
+                        class="aspect-square p-2 rounded-full hover:bg-color-4 transition-all bg-color-3"
+                        href=""
+                        target="_blank"
+                        ><img src="./src/img/logo/youtube.svg" alt="youtube"
+                     /></a>
+                  </div>
+               </div>
+            </div>
+            <p class="md:text-lg text-xs text-center mt-5">
+               Copyright<sup class="font-semibold">&copy;</sup> SMKN 9 Medan
+               <span class="font-semibold">Fahri Prayoga</span>
+            </p>
+            <div class="flex flex-col md:flex-row gap-20"></div>
+         </footer>
+      </section>
+      <!-- footer end -->
+
+      <!-- js -->
+      <script src="./src/js/main.js"></script>
+   </body>
+</html>
